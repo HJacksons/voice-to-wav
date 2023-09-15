@@ -2,7 +2,7 @@
 name = "voice-to-wav"
 version = "0.1.0"
 description = ""
-authors = ["Jackson <jacksonherberts@gmail.com>"]
+authors = ["Jackson <xxx@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
