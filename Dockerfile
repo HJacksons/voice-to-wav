@@ -20,5 +20,5 @@ RUN apt-get update && apt-get install -y \
 COPY . .
 
 CMD ["python", "main.py", "process"]
-#CMD ["tail", "-f", "/dev/null"]
+#CMD ["tail", "-f", "/dev/null"] # Keep container running
 
