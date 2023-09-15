@@ -9,7 +9,7 @@ and subsequently use it for speech transcription via a separate model.
 - Utilizes Poetry for dependency management.
 - Containerized using Docker for easy deployment and scaling.
 
-#Motivation:
+# Motivation:
 Due to challenges in accessing the host machine's microphone directly from within a Docker container, 
 the decision was made to handle audio recording outside the container and then process the audio inside. 
 This workaround ensures compatibility and ease of deployment, especially when collaborating with multiple contributors.
