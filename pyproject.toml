@@ -11,6 +11,7 @@ python = "^3.9"
 [tool.poetry.group.dev.dependencies]
 PyAudio = "^0.2.13"
 Wave = "^0.0.2"
+audioop = "^0.1.0"
 
 [build-system]
 requires = ["poetry-core"]
