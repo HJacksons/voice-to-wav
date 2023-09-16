@@ -1,5 +1,6 @@
 import pyaudio
 
+
 class Recorder:
     def __init__(self):
         self.format = pyaudio.paInt16
