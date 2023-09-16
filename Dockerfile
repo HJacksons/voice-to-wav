@@ -16,9 +16,10 @@ RUN apt-get update && apt-get install -y \
     poetry config virtualenvs.create false && \
     poetry install
 
-# Copy your scripts into the container
+
 COPY . .
 
-CMD ["python", "main.py", "process"]
-#CMD ["tail", "-f", "/dev/null"] # Keep container running
+#CMD ["python", "main.py", "process"]  # Run process command
+#CMD ["python", "simpleGUI.py"] # Run GUI
+CMD ["python", "main.py"]  #Run process command
 
